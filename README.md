@@ -10,13 +10,13 @@ Backend работает только внутри docker-сети, а снар�
 
 backend — Python HTTP сервер (app.py , Dockerfile)
 
-nginx — reverse proxy 
+nginx — reverse proxy (nginx.conf)
 
-docker-compose — оркестрация, поднимает оба сервиса и сеть
+docker-compose — оркестрация, поднимает оба сервиса и сеть (docker-compose.yml)
 
 ## Запуск
 
-cp .env.example .env
+cp .env.example .env (пример файла конфигурации)
 
 docker compose up --build -d
 
