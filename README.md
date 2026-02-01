@@ -9,12 +9,15 @@ Backend работает только внутри docker-сети, а снар�
 ## Структура
 
 backend — Python HTTP сервер 
+
 nginx — reverse proxy 
+
 docker-compose — оркестрация
 
 ## Запуск
 
 cp .env.example .env
+
 docker compose up --build
 
 ## Проверка
